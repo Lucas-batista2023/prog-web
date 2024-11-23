@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+  display: inline-block;
+  width: 200px;
+}
+
+span {
+  color: #333;
+  display: inline-block;
+}
+
+.image-description, .Description {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-description img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+/* Estilo do botão */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#main-image {
+  max-width: 100%; /* Limita a largura ao tamanho máximo do contêiner */
+  max-height: 300px; /* Define uma altura máxima */
+  object-fit: contain; /* Garante que a imagem seja redimensionada proporcionalmente */
+  display: block; /* Garante que a imagem respeite o fluxo de layout */
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  label {
+      width: 150px;
+  }
+
+  span {
+      font-size: 14px;
+  }
+
+  button {
+      font-size: 14px;
+  }
+}
+
+  
