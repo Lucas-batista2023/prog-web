@@ -1,5 +1,3 @@
-// register.js
-
 // Referências do formulário
 const registerForm = document.getElementById("registerForm");
 

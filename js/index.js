@@ -1,5 +1,3 @@
-// index.js (Login)
-
 // Criação automática de um Admin se não existir
 const defaultAdmin = {
     name: "Admin",
